@@ -5,9 +5,9 @@ import { useContext } from 'react';
 import { UserContext } from '../lib/context';
 
 export default function Enter(props) {
-  const user = null;
-  const username = null;
-  // const { user, username } = useContext(UserContext)
+  // const user = null;
+  // const username = null;
+  const { user, username } = useContext(UserContext)
 
   // 1. user signed out <SignInButton />
   // 2. user signed in, but missing username <UsernameForm />

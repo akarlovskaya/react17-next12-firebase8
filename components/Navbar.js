@@ -6,7 +6,9 @@ import { UserContext } from '../lib/context';
 export default function Navbar() {
 //   const user = true;
 //   const username = true;
-const { user, username } = useContext(UserContext)
+const { user, username } = useContext(UserContext);
+console.log('USER: ', user);
+console.log('USERNAME: ', username);
 
   return (
     <nav className="navbar">
